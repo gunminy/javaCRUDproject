@@ -1,4 +1,4 @@
 # javaCRUDproject
 
-![image](https://github.com/gunminy/javaCRUDproject/assets/36985195/3adf0777-ffdf-4048-ad87-b46d91b0f48f)
-![image](https://github.com/gunminy/javaCRUDproject/assets/36985195/446b2236-8c5b-465f-82e6-50aa59f151e7)
+![스크린샷 2023-09-08 104923](https://github.com/gunminy/javaCRUDproject/assets/36985195/ef80b2d9-3957-458a-af4c-5995f249001e)
+![스크린샷 2023-09-08 105035](https://github.com/gunminy/javaCRUDproject/assets/36985195/b9d0ec34-2033-4d62-9c94-fa0717565c86)
