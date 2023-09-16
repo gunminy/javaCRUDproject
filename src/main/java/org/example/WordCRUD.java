@@ -60,7 +60,7 @@ public class WordCRUD implements ICRUD{
         for(int i=0;i< list.size();i++){
             String word = list.get(i).getWord();
             if(!word.contains(keyword)) continue;
-            System.out.print(i+1+" ");
+            System.out.print(j+1+" ");
             System.out.println(list.get(i).toString());
             idlist.add(i);
             j++;
@@ -73,7 +73,7 @@ public class WordCRUD implements ICRUD{
         for(int i=0; i < list.size();i++){
             int ilevel =list.get(i).getLevel();
             if(ilevel != level) continue;
-            System.out.print(i+1+" ");
+            System.out.print(j+1+" ");
             System.out.println(list.get(i).toString());
             j++;
         }
