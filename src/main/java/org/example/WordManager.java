@@ -26,6 +26,7 @@ public class WordManager {
     }
 
     public void Start(){
+        wordCRUD.loadFile();
         while(true){
             int menu = selectMenu();
             if (menu == 0) {
@@ -42,16 +43,17 @@ public class WordManager {
 
             }
             else if (menu == 4) {
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
-            else if (menu == 5) {
+            else if (menu == 5) {//update
+                wordCRUD.updateItem();
 
             }
             else if (menu == 6) {
-
+                wordCRUD.deleteItem();
             }
             else if (menu == 7) {
-
+                wordCRUD.saveFile();
             }
         }
     }
